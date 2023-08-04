@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Weather Search</h1>
+            <div>
+                <input type="text" placeholder="Search by city" class="search-box">
+            </div>
+            <div>
+                <button class="search-btn">Find Weather</button>
+            </div>
+        </div>
 
+        <div id="weather-card">
+            <h1 id="city-heading"></h1>
+            <h3 id="forecast"></h3>
+            <h3 id="temp"></h3>
+            <h3 id="wind"></h3>
+        </div>
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
