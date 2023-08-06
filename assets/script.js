@@ -41,6 +41,7 @@ var wind5 = document.querySelector('#wind5');
 
 var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
 var forecastUrl = "http://api.openweathermap.org/data/2.5/forecast?q=";
+var icon = "http://openweathermap.org/img/w/10d.png"
 var myKey = "a8a526129b6eee34cf52f1de1b4a6927";
 
 weatherCard.style.display = "none";
@@ -49,7 +50,6 @@ day2.style.display = "none";
 day3.style.display = "none";
 day4.style.display = "none";
 day5.style.display = "none";
-
 
 
 searchBtn.addEventListener('click', function() {
@@ -141,10 +141,5 @@ fetch(forecastUrl + cityName + "&appid=" + myKey + "&units=imperial&per_page=1")
     temp5.innerHTML = "Temperature: " + tempData5 + " F";
     wind5.innerHTML = "Wind Speed: " + windSpeedData5 + "Mph";    
     humidity5.innerHTML = "Humidity: " + humidityData5 + " %";
-
-
-
-
-
 })
 });
