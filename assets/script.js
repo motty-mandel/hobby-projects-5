@@ -39,9 +39,9 @@ var temp5 = document.querySelector('#temp5');
 var humidity5 = document.querySelector('#humidity5');
 var wind5 = document.querySelector('#wind5');
 
-var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
-var forecastUrl = "http://api.openweathermap.org/data/2.5/forecast?q=";
-var icon = "http://openweathermap.org/img/w/10d.png"
+var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
+var forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q=";
+var icon = "https://openweathermap.org/img/w/10d.png"
 var myKey = "a8a526129b6eee34cf52f1de1b4a6927";
 
 weatherCard.style.display = "none";
