@@ -11,6 +11,6 @@ This project can be used as intended as well as to dissect and take code snippet
 ## Credits
 Help came from the docs of open weather, the ta's and ChatGpt.
 
-## Liscense
+## License
 Please reference the repo.
 
